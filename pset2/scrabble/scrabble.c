@@ -44,7 +44,7 @@ int compute_score(string word)
     {
         if (isalpha(word[i]))
         {
-            pos = (int) toupper(word[i]) - 65;
+            pos = (int)toupper(word[i]) - 65;
             score += POINTS[pos];
         }
     }
