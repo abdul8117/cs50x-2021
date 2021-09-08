@@ -14,7 +14,7 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb",
+            "MIMode": "gdb",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -23,7 +23,7 @@
                 }
             ],
             "preLaunchTask": "C/C++: clang-12 build active file",
-            "miDebuggerPath": "/usr/bin/lldb-mi-12"
+            "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
 }
